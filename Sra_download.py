@@ -71,7 +71,7 @@ class SRR_Download():
 
 
 if __name__ == '__main__':
-    id = input("请输入SRR号：")
+    id = input("Please input the SRR number: ")
     t = SRR_Download(id)
     # t.get_file_by_url()
     t.download_begin()
